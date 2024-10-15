@@ -25,10 +25,10 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-dir: msm-4.19
-          kernel-branch: taffy
-          config: cas_defconfig
+          kernel-url: https://github.com/Fyj69/mcd_kernel_oneplus_sdm845
+          kernel-dir: msm-4.9
+          kernel-branch: mcd-OOS-R
+          config: mcd_ksu_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: false
